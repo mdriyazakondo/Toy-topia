@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+a.active {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #a855f7, #6366f1);
+  border-image-slice: 1;
+  color: transparent;
+  background: linear-gradient(to right, #a855f7, #6366f1);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+a.active:hover {
+  border-image: linear-gradient(to right, #4f46e5, #7e22ce);
+  /* background: linear-gradient(to right, #4f46e5, #7e22ce); */
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
