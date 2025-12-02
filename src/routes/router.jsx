@@ -38,27 +38,15 @@ export const router = createBrowserRouter([
       },
       {
         path: "/blog",
-        element: (
-          <PriaviteRoute>
-            <Blog />
-          </PriaviteRoute>
-        ),
+        element: <Blog />,
       },
       {
         path: "/contacts",
-        element: (
-          <PriaviteRoute>
-            <Contacts />
-          </PriaviteRoute>
-        ),
+        element: <Contacts />,
       },
       {
         path: "/products/:id",
-        element: (
-          <PriaviteRoute>
-            <SingleToys />
-          </PriaviteRoute>
-        ),
+        element: <SingleToys />,
         loader: () => fetch("/toys.json"),
       },
       {

@@ -58,24 +58,23 @@ const Navbar = () => {
       >
         All Toys
       </NavLink>
-      {user && (
-        <NavLink
-          onClick={() => setOpen(false)}
-          to="/blog"
-          className="text-gray-600 font-semibold hover:text-purple-500"
-        >
-          Blog
-        </NavLink>
-      )}
-      {user && (
-        <NavLink
-          onClick={() => setOpen(false)}
-          to="/contacts"
-          className="text-gray-600 font-semibold hover:text-purple-500"
-        >
-          Contact
-        </NavLink>
-      )}
+
+      <NavLink
+        onClick={() => setOpen(false)}
+        to="/blog"
+        className="text-gray-600 font-semibold hover:text-purple-500"
+      >
+        Blog
+      </NavLink>
+
+      <NavLink
+        onClick={() => setOpen(false)}
+        to="/contacts"
+        className="text-gray-600 font-semibold hover:text-purple-500"
+      >
+        Contact
+      </NavLink>
+
       {user && (
         <NavLink
           onClick={() => setOpen(false)}
@@ -89,7 +88,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-300 transition-all px-6 md:px-16 lg:px-24 py-3 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-300 transition-all px-6 md:px-16 lg:px-24 xl:px-32 py-3 flex items-center justify-between">
       <Link to="/">
         <img src="/img/logo2.png" alt="Logo" className="w-24" />
       </Link>
@@ -119,7 +118,7 @@ const Navbar = () => {
           </Link>
           <button
             onClick={handleLogOut}
-            className="px-5 py-2 flex bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-indigo-600 hover:to-purple-600 text-white rounded-md transition cursor-pointer items-center gap-1"
+            className="px-5 py-2 flex bg-linear-to-r from-purple-500 to-indigo-500 hover:from-indigo-600 hover:to-purple-600 text-white rounded-md transition cursor-pointer items-center gap-1"
           >
             <CgLogOut className="w-6 h-6" /> Logout
           </button>
@@ -128,15 +127,15 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <Link
             to="/register"
-            className="hidden md:flex px-5 py-2 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-indigo-600 hover:to-purple-600 text-white rounded-md transition items-center gap-2"
+            className="hidden md:flex px-5 py-2 bg-linear-to-r from-purple-500 to-indigo-500 hover:from-indigo-600 hover:to-purple-600 text-white rounded-md transition items-center gap-2"
           >
-            <MdLogin className="w-6 h-6"/> Register
+            <MdLogin className="w-6 h-6" /> Register
           </Link>{" "}
           <Link
             to="/login"
-            className="hidden md:flex px-5 py-2 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-indigo-600 hover:to-purple-600 text-white rounded-md transition items-center gap-2"
+            className="hidden md:flex px-5 py-2 bg-linear-to-r from-purple-500 to-indigo-500 hover:from-indigo-600 hover:to-purple-600 text-white rounded-md transition items-center gap-2"
           >
-            <MdLogin className="w-6 h-6"/> Login
+            <MdLogin className="w-6 h-6" /> Login
           </Link>
         </div>
       )}
