@@ -35,7 +35,7 @@ const ProductsSection = () => {
         Popular Kids Products
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4">
-        {sliceProducts.slice(10, 18).map((product, i) => (
+        {sliceProducts.slice(1, 9).map((product, i) => (
           <div key={product.toyId} data-aos="zoom-in" data-aos-delay={i * 100}>
             <SinglePruduct product={product} />
           </div>

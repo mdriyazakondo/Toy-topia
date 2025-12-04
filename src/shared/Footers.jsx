@@ -32,7 +32,6 @@ export default function Footers() {
           </div>
         </div>
 
-       
         <div className="w-full md:w-1/4 flex flex-wrap md:flex-nowrap justify-between">
           <div className="mb-6 md:mb-0">
             <h2 className="font-semibold text-lg mb-4">Quick Links</h2>
@@ -46,9 +45,6 @@ export default function Footers() {
               <Link to={"/blog"}>
                 <li className="hover:text-white transition mt-3">Blog</li>
               </Link>
-              <Link to={"/contacts"}>
-                <li className="hover:text-white transition mt-3">Contacts</li>
-              </Link>
               <Link to={"/profile"}>
                 <li className="hover:text-white transition mt-3">My Profile</li>
               </Link>
@@ -58,30 +54,19 @@ export default function Footers() {
           <div>
             <h2 className="font-semibold text-lg mb-4">Company</h2>
             <ul className="space-y-2 text-white/80 text-sm">
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Privacy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Terms
-                </a>
-              </li>
+              <Link to={"/contacts"}>
+                <li className="hover:text-white transition mt-3">Contacts</li>
+              </Link>
+
+              <Link to={"/login"}>
+                <li className="hover:text-white transition mt-3">Login</li>
+              </Link>
+              <Link to={"/register"}>
+                <li className="hover:text-white transition mt-3">Register</li>
+              </Link>
             </ul>
           </div>
         </div>
-
 
         <div className="max-w-sm">
           <h2 className="font-semibold text-lg mb-4">Stay in Touch</h2>

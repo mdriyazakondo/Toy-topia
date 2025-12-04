@@ -1,266 +1,456 @@
 [
   {
     "toyId": 1,
-    "toyName": "Lego Classic Bricks",
-    "sellerName": "Toys R Us Local",
-    "sellerEmail": "contact@toysruslocal.com",
-    "price": 49.99,
-    "rating": 4.7,
-    "availableQuantity": 75,
-    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
-    "pictureURL": "https://ik.imagekit.io/szqjng5ej/assignment-9/image1.jpg?updatedAt=1761058727013",
-    "subCategory": "Building Blocks",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 2,
-    "toyName": "Hot Wheels Mega Track Set",
-    "sellerName": "Speedy Toys",
-    "sellerEmail": "sales@speedytoys.com",
-    "price": 34.5,
-    "rating": 4.5,
-    "availableQuantity": 50,
-    "description": "An exciting Hot Wheels track set with multiple loops, jumps, and high-speed turns for endless racing fun.",
-    "pictureURL": "https://ik.imagekit.io/szqjng5ej/assignment-9/image2.avif?updatedAt=1761058727092",
-    "subCategory": "Vehicles",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 3,
-    "toyName": "Barbie Dreamhouse",
-    "sellerName": "Doll World",
-    "sellerEmail": "info@dollworld.com",
-    "price": 129.99,
-    "rating": 4.8,
-    "availableQuantity": 30,
-    "description": "The Barbie Dreamhouse features three floors, multiple rooms, and working lights and sounds for realistic play.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image30.webp?updatedAt=1761059952996",
-    "subCategory": "Dolls",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 4,
-    "toyName": "NERF Elite Blaster",
-    "sellerName": "Action Zone",
-    "sellerEmail": "support@actionzone.com",
-    "price": 39.99,
-    "rating": 4.6,
-    "availableQuantity": 60,
-    "description": "Take your NERF battles to the next level with this high-capacity Elite Blaster that shoots darts up to 90 feet.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image4.jpg?updatedAt=1761059952903",
-    "subCategory": "Action Toys",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 5,
-    "toyName": "Wooden Train Set",
-    "sellerName": "Classic Kids Store",
-    "sellerEmail": "hello@classickids.com",
-    "price": 27.95,
-    "rating": 4.4,
-    "availableQuantity": 90,
-    "description": "A premium wooden train set with tracks, bridges, and colorful trains to spark imaginative play and coordination.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image5.webp?updatedAt=1761059952992",
-    "subCategory": "Educational Toys",
-    "popularity": "unpopular"
-  },
-  {
-    "toyId": 6,
-    "toyName": "RC Monster Truck",
-    "sellerName": "Tech Toys Hub",
-    "sellerEmail": "orders@techtoyshub.com",
-    "price": 59.99,
-    "rating": 4.3,
-    "availableQuantity": 40,
-    "description": "A durable and powerful remote-controlled monster truck perfect for off-road adventures and stunts.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image6.jpeg?updatedAt=1761059952828",
-    "subCategory": "Remote Control",
-    "popularity": "unpopular"
-  },
-  {
-    "toyId": 7,
-    "toyName": "Play-Doh Super Color Pack",
-    "sellerName": "Creative Minds",
-    "sellerEmail": "creative@mindstore.com",
-    "price": 19.99,
-    "rating": 4.9,
-    "availableQuantity": 120,
-    "description": "Unleash creativity with this Play-Doh pack containing 20 bright colors. Great for shaping, molding, and fun sensory play.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image7.jpg?updatedAt=1761059952809",
-    "subCategory": "Creative Toys",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 8,
-    "toyName": "Teddy Bear Plush Toy",
-    "sellerName": "Cuddle World",
-    "sellerEmail": "contact@cuddleworld.com",
-    "price": 24.5,
-    "rating": 4.8,
-    "availableQuantity": 150,
-    "description": "A soft and huggable teddy bear made with premium plush material, perfect for cuddles and gifts.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image8.jpg?updatedAt=1761059952982",
-    "subCategory": "Soft Toys",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 9,
-    "toyName": "Magnetic Building Tiles",
-    "sellerName": "STEM Kids",
-    "sellerEmail": "info@stemkids.com",
-    "price": 44.99,
-    "rating": 4.7,
-    "availableQuantity": 65,
-    "description": "Colorful magnetic tiles that let kids explore geometry, symmetry, and design while building amazing 3D structures.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image9.avif?updatedAt=1761059953065",
-    "subCategory": "STEM Toys",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 10,
-    "toyName": "Puzzle Set 1000 Pieces",
-    "sellerName": "Mind Builders",
-    "sellerEmail": "help@mindbuilders.com",
-    "price": 22.0,
-    "rating": 4.5,
-    "availableQuantity": 85,
-    "description": "A 1000-piece landscape puzzle designed to challenge the mind and improve concentration for all ages.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image10.webp?updatedAt=1761059953115",
-    "subCategory": "Puzzles",
-    "popularity": "unpopular"
-  },
-  {
-    "toyId": 11,
-    "toyName": "Transformers Optimus Prime",
-    "sellerName": "Hero Toys",
-    "sellerEmail": "support@herotoys.com",
+    "toyName": "Remote Control Monster Truck",
+    "sellerName": "Speedy Toys World",
+    "sellerEmail": "support@speedytoys.com",
     "price": 69.99,
     "rating": 4.8,
-    "availableQuantity": 45,
-    "description": "Transformers Optimus Prime action figure that converts from robot to truck in seconds. A must-have for collectors and fans.",
+    "availableQuantity": 60,
+    "description": "High-speed RC monster truck with shock absorbers, large wheels, and durable body for all terrains including sand, mud, and grass.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image11.webp?updatedAt=1761059953018",
-    "subCategory": "Action Toys",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 12,
-    "toyName": "Fisher-Price Baby Walker",
-    "sellerName": "Little Steps",
-    "sellerEmail": "info@littlesteps.com",
-    "price": 39.5,
-    "rating": 4.4,
-    "availableQuantity": 70,
-    "description": "Interactive baby walker with lights, music, and sounds to help toddlers learn to walk while having fun.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image12.jpeg?updatedAt=1761059952901",
-    "subCategory": "Baby Toys",
-    "popularity": "unpopular"
-  },
-  {
-    "toyId": 13,
-    "toyName": "Lego Star Wars X-Wing",
-    "sellerName": "Brick Universe",
-    "sellerEmail": "sales@brickuniverse.com",
-    "price": 89.99,
-    "rating": 4.9,
-    "availableQuantity": 25,
-    "description": "Build your own iconic X-Wing Starfighter from Star Wars with this challenging and fun Lego set.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image13.jpg?updatedAt=1761059953074",
-    "subCategory": "Building Blocks",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 14,
-    "toyName": "UNO Classic Card Game",
-    "sellerName": "Fun Decks",
-    "sellerEmail": "orders@fundecks.com",
-    "price": 9.99,
-    "rating": 4.7,
-    "availableQuantity": 200,
-    "description": "A classic family card game of strategy and luck. Easy to learn and perfect for parties or travel.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image14.jpg?updatedAt=1761059952928",
-    "subCategory": "Board Games",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 15,
-    "toyName": "Rubik’s Cube 3x3",
-    "sellerName": "Puzzle Planet",
-    "sellerEmail": "contact@puzzleplanet.com",
-    "price": 12.99,
-    "rating": 4.6,
-    "availableQuantity": 140,
-    "description": "The world-famous 3x3 Rubik’s Cube – a challenging brain teaser that builds problem-solving skills and patience.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/istockphoto-473622680-612x612.jpg?updatedAt=1761071252610",
-    "subCategory": "Puzzles",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 16,
-    "toyName": "Remote Control Drone Mini",
-    "sellerName": "Sky Play",
-    "sellerEmail": "info@skyplay.com",
-    "price": 54.99,
-    "rating": 4.2,
-    "availableQuantity": 55,
-    "description": "Compact drone with easy controls, LED lights, and a 720p camera for kids and beginners.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image16.webp?updatedAt=1761059953000",
     "subCategory": "Remote Control",
-    "popularity": "unpopular"
+    "popularity": "top-rated",
+    "features": ["Shock Absorbers", "All-Terrain Wheels", "Long Battery Life"],
+    "materials": ["ABS Plastic", "Rubber", "Steel"],
+    "dimensions": "14 x 10 x 9 inches",
+    "weight": "2.5 lbs",
+    "releaseDate": "2023-10-05",
+    "badges": ["Best Seller", "Kids Favorite"],
+    "safetyInfo": "Suitable for age 6+. Avoid water exposure.",
+    "ageRecommendation": "6-14 years",
+    "manufacturingInfo": {
+      "brand": "TurboX",
+      "madeIn": "Malaysia",
+      "warranty": "6 months"
+    },
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-5 business days"
+    },
+    "reviews": [
+      {
+        "username": "Hassan",
+        "comment": "Very fast and durable!",
+        "rating": 5
+      },
+      {
+        "username": "Emily",
+        "comment": "My son loves it!",
+        "rating": 4.7
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Outdoor", "RC", "Adventure"]
   },
+
   {
-    "toyId": 17,
-    "toyName": "Stuffed Elephant Toy",
-    "sellerName": "Cuddle Factory",
-    "sellerEmail": "hello@cuddlefactory.com",
-    "price": 21.49,
-    "rating": 4.5,
-    "availableQuantity": 130,
-    "description": "Adorable grey elephant plush toy made with super soft fabric and perfect stitching for safe cuddling.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image17.jpg?updatedAt=1761059952311",
-    "subCategory": "Soft Toys",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 18,
-    "toyName": "Magnetic Drawing Board",
-    "sellerName": "EduPlay",
-    "sellerEmail": "sales@eduplay.com",
-    "price": 18.75,
-    "rating": 4.3,
-    "availableQuantity": 85,
-    "description": "Reusable drawing board with magnetic pen and eraser slider – perfect for toddlers learning to write and draw.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image18.jpeg?updatedAt=1761059952270",
-    "subCategory": "Educational Toys",
-    "popularity": "unpopular"
-  },
-  {
-    "toyId": 19,
-    "toyName": "Jenga Classic Tower Game",
-    "sellerName": "Board Zone",
-    "sellerEmail": "support@boardzone.com",
-    "price": 16.99,
-    "rating": 4.8,
-    "availableQuantity": 100,
-    "description": "The suspenseful stacking game where players remove blocks without toppling the tower. Great for all ages.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image19.jpg?updatedAt=1761059952730",
-    "subCategory": "Board Games",
-    "popularity": "popular"
-  },
-  {
-    "toyId": 20,
-    "toyName": "Lego Technic Sports Car",
-    "sellerName": "Brick Masters",
-    "sellerEmail": "info@brickmasters.com",
-    "price": 119.99,
+    "toyId": 1,
+    "toyName": "Barbie Dreamhouse Set",
+    "sellerName": "Doll World Store",
+    "sellerEmail": "contact@dollworld.com",
+    "price": 129.99,
     "rating": 4.9,
-    "availableQuantity": 20,
-    "description": "An advanced Lego Technic set for building a detailed sports car with functional steering and suspension.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image20.jpg?updatedAt=1761059953081",
-    "subCategory": "Building Blocks",
-    "popularity": "popular"
+    "availableQuantity": 40,
+    "description": "A luxurious multi-level Barbie Dreamhouse with lights, sound effects, furniture sets, and an elevator.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image12.jpeg?updatedAt=1761059952901",
+    "subCategory": "Dolls & Accessories",
+    "popularity": "popular",
+    "features": ["LED Lights", "Sound Effects", "3 Floors"],
+    "materials": ["Plastic", "Fabric"],
+    "dimensions": "32 x 30 x 12 inches",
+    "weight": "8 lbs",
+    "releaseDate": "2024-02-12",
+    "badges": ["Premium", "Most Gifted"],
+    "safetyInfo": "Small pieces included. Not for children under 3.",
+    "ageRecommendation": "3-12 years",
+    "manufacturingInfo": {
+      "brand": "Mattel",
+      "madeIn": "China",
+      "warranty": "1 year"
+    },
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-7 business days"
+    },
+    "reviews": [
+      {
+        "username": "Sadia",
+        "comment": "Beautiful and high-quality!",
+        "rating": 5
+      },
+      {
+        "username": "Clara",
+        "comment": "My daughter is obsessed!",
+        "rating": 4.9
+      }
+    ],
+    "stockStatus": "limited",
+    "tags": ["Barbie", "Dolls", "Luxury"]
   },
+
   {
-    "toyId": 21,
+    "toyId": 3,
+    "toyName": "Hot Wheels Race Track",
+    "sellerName": "Racer Toys Hub",
+    "sellerEmail": "info@racerhub.com",
+    "price": 59.99,
+    "rating": 4.6,
+    "availableQuantity": 80,
+    "description": "Massive Hot Wheels racing set with loops, launchers, and multiple track configurations for endless fun.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image13.jpg?updatedAt=1761059953074",
+    "subCategory": "Vehicles",
+    "popularity": "trending",
+    "features": ["Double Loops", "Dual Launchers", "Modular Tracks"],
+    "materials": ["Plastic", "Metal"],
+    "dimensions": "20 x 15 x 6 inches",
+    "weight": "3 lbs",
+    "releaseDate": "2023-08-20",
+    "badges": ["Trending", "Popular Among Boys"],
+    "safetyInfo": "Recommended supervision for kids under 5.",
+    "ageRecommendation": "4-14 years",
+    "manufacturingInfo": {
+      "brand": "Hot Wheels",
+      "madeIn": "Vietnam",
+      "warranty": "6 months"
+    },
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "5-8 business days"
+    },
+    "reviews": [
+      {
+        "username": "Jordan",
+        "comment": "Track is huge and super fun.",
+        "rating": 4.8
+      },
+      {
+        "username": "Nadia",
+        "comment": "Great design!",
+        "rating": 4.5
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Cars", "Tracks", "Speed"]
+  },
+
+  {
+    "toyId": 4,
+    "toyName": "Plush Teddy Bear XL",
+    "sellerName": "Soft Toys Co.",
+    "sellerEmail": "hello@softtoys.com",
+    "price": 39.99,
+    "rating": 4.7,
+    "availableQuantity": 120,
+    "description": "Extra-large soft teddy bear with premium cotton filling and fluffy fabric. Perfect for cuddling and gifting.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image14.jpg?updatedAt=1761059952928",
+    "subCategory": "Stuffed Animals",
+    "popularity": "popular",
+    "features": ["Hypoallergenic", "Ultra Soft", "Washable"],
+    "materials": ["Cotton", "Polyester"],
+    "dimensions": "28 x 16 x 14 inches",
+    "weight": "1.8 lbs",
+    "releaseDate": "2024-01-10",
+    "badges": ["Softest Toy", "Gift Choice"],
+    "safetyInfo": "Machine washable on gentle cycles.",
+    "ageRecommendation": "1-10 years",
+    "manufacturingInfo": {
+      "brand": "FluffyBear",
+      "madeIn": "Bangladesh",
+      "warranty": "3 months"
+    },
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "2-4 business days"
+    },
+    "reviews": [
+      {
+        "username": "Mira",
+        "comment": "So soft and big!",
+        "rating": 5
+      },
+      {
+        "username": "Zara",
+        "comment": "Loved it!",
+        "rating": 4.8
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Teddy", "Soft", "Cute"]
+  },
+
+  {
+    "toyId": 5,
+    "toyName": "Nerf Elite Blaster",
+    "sellerName": "Battle Zone Toys",
+    "sellerEmail": "support@battlezone.com",
+    "price": 44.99,
+    "rating": 4.8,
+    "availableQuantity": 90,
+    "description": "Nerf Elite Blaster with long-range darts, precision targeting, and rapid-fire system.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/istockphoto-473622680-612x612.jpg?updatedAt=1761071252610",
+    "subCategory": "Action",
+    "popularity": "top-rated",
+    "features": ["Rapid Fire", "Long Range", "Easy Grip"],
+    "materials": ["Plastic", "Foam"],
+    "dimensions": "18 x 10 x 4 inches",
+    "weight": "2 lbs",
+    "releaseDate": "2023-12-08",
+    "badges": ["Top Rated", "Boys Favorite"],
+    "safetyInfo": "Do not aim at eyes or face.",
+    "ageRecommendation": "8-16 years",
+    "manufacturingInfo": {
+      "brand": "Nerf",
+      "madeIn": "China",
+      "warranty": "1 year"
+    },
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "3-6 business days"
+    },
+    "reviews": [
+      {
+        "username": "Arif",
+        "comment": "Super powerful!",
+        "rating": 5
+      },
+      {
+        "username": "Leo",
+        "comment": "Kids love this blaster!",
+        "rating": 4.9
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Nerf", "Shooting", "Action"]
+  },
+
+  {
+    "toyId": 6,
+    "toyName": "Magic Puzzle Cube",
+    "sellerName": "Puzzle Masters",
+    "sellerEmail": "info@puzzlemaster.com",
+    "price": 14.99,
+    "rating": 4.5,
+    "availableQuantity": 200,
+    "description": "3x3 speed cube made with smooth rotating mechanism that enhances learning and brain development.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image16.webp?updatedAt=1761059953000",
+    "subCategory": "Puzzles",
+    "popularity": "popular",
+    "features": ["Speed Rotation", "Scratch Resistant", "Lightweight"],
+    "materials": ["ABS Plastic"],
+    "dimensions": "3 x 3 x 3 inches",
+    "weight": "0.3 lbs",
+    "releaseDate": "2023-07-10",
+    "badges": ["Best for Brain", "Trending"],
+    "safetyInfo": "Recommended for ages 6+.",
+    "ageRecommendation": "6+ years",
+    "manufacturingInfo": {
+      "brand": "CubeX",
+      "madeIn": "India",
+      "warranty": "3 months"
+    },
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "2-3 business days"
+    },
+    "reviews": [
+      {
+        "username": "Kabir",
+        "comment": "Very smooth cube!",
+        "rating": 4.7
+      },
+      {
+        "username": "Noah",
+        "comment": "Good for beginners.",
+        "rating": 4.4
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Puzzle", "Cube", "Brain"]
+  },
+
+  {
+    "toyId": 7,
+    "toyName": "Kids Play Kitchen Set",
+    "sellerName": "Happy Home Toys",
+    "sellerEmail": "hello@happyhome.com",
+    "price": 89.99,
+    "rating": 4.8,
+    "availableQuantity": 55,
+    "description": "Wooden kitchen playset with oven, sink, utensils, lights, and realistic knobs for pretend cooking.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image17.jpg?updatedAt=1761059952311",
+    "subCategory": "Pretend Play",
+    "popularity": "top-rated",
+    "features": ["Wooden Build", "LED Stove", "Utensils Included"],
+    "materials": ["Wood", "Metal", "Plastic"],
+    "dimensions": "28 x 24 x 12 inches",
+    "weight": "10 lbs",
+    "releaseDate": "2024-03-18",
+    "badges": ["Premium Toy", "Educational"],
+    "safetyInfo": "Non-toxic paint. Safe edges.",
+    "ageRecommendation": "3-10 years",
+    "manufacturingInfo": {
+      "brand": "MiniChef",
+      "madeIn": "Indonesia",
+      "warranty": "1 year"
+    },
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "5-7 business days"
+    },
+    "reviews": [
+      {
+        "username": "Safa",
+        "comment": "Kids love playing chef!",
+        "rating": 5
+      },
+      {
+        "username": "Emma",
+        "comment": "Very well built.",
+        "rating": 4.9
+      }
+    ],
+    "stockStatus": "limited",
+    "tags": ["Kitchen", "Pretend", "Wooden"]
+  },
+
+  {
+    "toyId": 8,
+    "toyName": "Dinosaur Action Figure Set",
+    "sellerName": "Jurassic Kids Shop",
+    "sellerEmail": "support@jurassickids.com",
+    "price": 34.99,
+    "rating": 4.6,
+    "availableQuantity": 150,
+    "description": "Set of 10 realistic dinosaur action figures with movable joints and detailed textures.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image18.jpeg?updatedAt=1761059952270",
+    "subCategory": "Action",
+    "popularity": "trending",
+    "features": ["Movable Joints", "High Detail Sculpt", "10 Figurines"],
+    "materials": ["Plastic", "Rubber"],
+    "dimensions": "Box: 18 x 10 x 6 inches",
+    "weight": "2 lbs",
+    "releaseDate": "2023-05-15",
+    "badges": ["Popular", "Kids Favorite"],
+    "safetyInfo": "Small parts. Not for under 3 years.",
+    "ageRecommendation": "4-12 years",
+    "manufacturingInfo": {
+      "brand": "DinoWorld",
+      "madeIn": "Philippines",
+      "warranty": "6 months"
+    },
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "3-6 business days"
+    },
+    "reviews": [
+      {
+        "username": "Ryan",
+        "comment": "Great dinosaur models!",
+        "rating": 4.6
+      },
+      {
+        "username": "Jannat",
+        "comment": "Good quality.",
+        "rating": 4.5
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Dinosaur", "Action", "Adventure"]
+  },
+
+  {
+    "toyId": 9,
+    "toyName": "Kids Educational Tablet",
+    "sellerName": "Smart Kidz Store",
+    "sellerEmail": "info@smartkidz.com",
+    "price": 99.99,
+    "rating": 4.9,
+    "availableQuantity": 65,
+    "description": "Educational tablet with pre-installed learning apps, voice assistant, and parental controls.",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image19.jpg?updatedAt=1761059952730",
+    "subCategory": "Educational",
+    "popularity": "best-seller",
+    "features": ["Voice Assistant", "WiFi", "Parental Control"],
+    "materials": ["Plastic", "Glass"],
+    "dimensions": "10 x 7 x 0.5 inches",
+    "weight": "1 lb",
+    "releaseDate": "2024-04-01",
+    "badges": ["Best Seller", "Editor's Choice"],
+    "safetyInfo": "Screen time should be monitored.",
+    "ageRecommendation": "3-12 years",
+    "manufacturingInfo": {
+      "brand": "EduTech",
+      "madeIn": "China",
+      "warranty": "1 year"
+    },
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-6 business days"
+    },
+    "reviews": [
+      {
+        "username": "Hafsa",
+        "comment": "Amazing learning features!",
+        "rating": 5
+      },
+      {
+        "username": "Chris",
+        "comment": "Perfect for kids.",
+        "rating": 4.9
+      }
+    ],
+    "stockStatus": "limited",
+    "tags": ["Tablet", "Education", "Smart"]
+  },
+
+  {
+    "toyId": 10,
+    "toyName": "Outdoor Trampoline Set",
+    "sellerName": "Playground Max",
+    "sellerEmail": "contact@playgroundmax.com",
+    "price": 199.99,
+    "rating": 4.8,
+    "availableQuantity": 30,
+    "description": "Safe outdoor trampoline with safety net, bouncy mat, and rust-resistant steel frame.",
+    "pictureURL": "https://ik.imagekit.io/szqjng5ej/assignment-9/image20.jpg",
+    "subCategory": "Outdoor",
+    "popularity": "top-rated",
+    "features": ["Safety Net", "Rust-Proof Frame", "Heavy Springs"],
+    "materials": ["Steel", "Mesh", "Polypropylene"],
+    "dimensions": "Diameter: 10ft, Height: 8ft",
+    "weight": "25 lbs",
+    "releaseDate": "2023-06-22",
+    "badges": ["Top Rated", "Outdoor Best"],
+    "safetyInfo": "Adult supervision required.",
+    "ageRecommendation": "5-16 years",
+    "manufacturingInfo": {
+      "brand": "JumpPro",
+      "madeIn": "Turkey",
+      "warranty": "1 year"
+    },
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "5-10 business days"
+    },
+    "reviews": [
+      {
+        "username": "Mahir",
+        "comment": "Super durable and safe!",
+        "rating": 5
+      },
+      {
+        "username": "Sophia",
+        "comment": "Kids love playing every day!",
+        "rating": 4.9
+      }
+    ],
+    "stockStatus": "in-stock",
+    "tags": ["Outdoor", "Trampoline", "Sports"]
+  },
+
+  {
+    "toyId": 11,
     "toyName": "Play Kitchen Set",
     "sellerName": "Mini Chef Toys",
     "sellerEmail": "info@minicheftoys.com",
@@ -270,10 +460,47 @@
     "description": "A realistic play kitchen with utensils, stove, and oven sounds that encourage role play and imagination.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image21.webp?updatedAt=1761059952911",
     "subCategory": "Pretend Play",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["Stove Sounds", "Utensils Included", "Wood Finish"],
+    "materials": ["Wood", "Plastic", "Metal"],
+    "dimensions": "25 x 20 x 12 inches",
+    "weight": "9 lbs",
+    "releaseDate": "2024-02-25",
+    "badges": ["Kids Favorite", "Best Gift"],
+    "safetyInfo": "Non-toxic materials. Smooth edges.",
+    "ageRecommendation": "3-10 years",
+
+    "manufacturingInfo": {
+      "brand": "Mini Chef",
+      "madeIn": "Indonesia",
+      "warranty": "1 year"
+    },
+
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-7 business days"
+    },
+
+    "reviews": [
+      {
+        "username": "Raisa",
+        "comment": "Very realistic and cute!",
+        "rating": 4.8
+      },
+      {
+        "username": "Olivia",
+        "comment": "Perfect toy for my daughter!",
+        "rating": 4.6
+      }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Kitchen", "Pretend Play", "Wooden"]
   },
+
   {
-    "toyId": 22,
+    "toyId": 12,
     "toyName": "Baby Rattle Set",
     "sellerName": "Tiny Steps",
     "sellerEmail": "sales@tinysteps.com",
@@ -283,10 +510,47 @@
     "description": "A colorful set of soft baby rattles designed to stimulate sensory skills and hand-eye coordination.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image22.jpg?updatedAt=1761059952932",
     "subCategory": "Baby Toys",
-    "popularity": "unpopular"
+    "popularity": "unpopular",
+
+    "features": ["Soft Grip", "Sound Rattles", "Safe for Babies"],
+    "materials": ["Fabric", "Plastic"],
+    "dimensions": "5 x 2 x 2 inches",
+    "weight": "0.2 lbs",
+    "releaseDate": "2023-06-10",
+    "badges": ["Soft", "Safe for Babies"],
+    "safetyInfo": "BPA-free, chew-safe.",
+    "ageRecommendation": "0-2 years",
+
+    "manufacturingInfo": {
+      "brand": "Tiny Steps",
+      "madeIn": "Bangladesh",
+      "warranty": "6 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "2-4 business days"
+    },
+
+    "reviews": [
+      {
+        "username": "Mila",
+        "comment": "Soft and perfect for babies!",
+        "rating": 4.4
+      },
+      {
+        "username": "Ariana",
+        "comment": "Good quality product.",
+        "rating": 4.2
+      }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Baby", "Rattle", "Soft Toys"]
   },
+
   {
-    "toyId": 23,
+    "toyId": 13,
     "toyName": "Remote Control Helicopter",
     "sellerName": "Fly High Toys",
     "sellerEmail": "support@flyhightoys.com",
@@ -296,10 +560,39 @@
     "description": "A high-speed RC helicopter with stable flight controls and rechargeable battery for long playtime.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image23.jpeg?updatedAt=1761059953082",
     "subCategory": "Remote Control",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["Stable Flight", "Rechargeable Battery", "High Speed"],
+    "materials": ["ABS Plastic", "Metal"],
+    "dimensions": "12 x 7 x 4 inches",
+    "weight": "1.5 lbs",
+    "releaseDate": "2024-01-20",
+    "badges": ["Popular RC", "Top Rated"],
+    "safetyInfo": "Indoor use recommended.",
+    "ageRecommendation": "8+ years",
+
+    "manufacturingInfo": {
+      "brand": "FlyHigh",
+      "madeIn": "Japan",
+      "warranty": "1 year"
+    },
+
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "5-8 business days"
+    },
+
+    "reviews": [
+      { "username": "Ayan", "comment": "Fast and super fun!", "rating": 4.7 },
+      { "username": "Luke", "comment": "Worth the price!", "rating": 4.5 }
+    ],
+
+    "stockStatus": "limited",
+    "tags": ["RC", "Helicopter", "Flying"]
   },
+
   {
-    "toyId": 24,
+    "toyId": 14,
     "toyName": "Crayola Art Set",
     "sellerName": "Creative Zone",
     "sellerEmail": "info@creativezone.com",
@@ -307,12 +600,45 @@
     "rating": 4.8,
     "availableQuantity": 90,
     "description": "A complete art kit featuring crayons, markers, colored pencils, and paper for hours of creative fun.",
-    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image24.jpg?updatedAt=1761059952975s",
+    "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image24.jpg?updatedAt=1761059952975",
     "subCategory": "Creative Toys",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["100+ Items", "Non-toxic Colors", "Easy Carry Case"],
+    "materials": ["Wax", "Plastic", "Paper"],
+    "dimensions": "15 x 10 x 3 inches",
+    "weight": "2 lbs",
+    "releaseDate": "2023-09-12",
+    "badges": ["Creative Choice", "Top Rated"],
+    "safetyInfo": "Non-toxic Crayola certified.",
+    "ageRecommendation": "4+ years",
+
+    "manufacturingInfo": {
+      "brand": "Crayola",
+      "madeIn": "China",
+      "warranty": "6 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "3-6 business days"
+    },
+
+    "reviews": [
+      {
+        "username": "Sarah",
+        "comment": "Perfect for art lovers!",
+        "rating": 5
+      },
+      { "username": "Omar", "comment": "Loved the colors!", "rating": 4.7 }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Art", "Creative", "Drawing"]
   },
+
   {
-    "toyId": 25,
+    "toyId": 15,
     "toyName": "Plush Dinosaur Toy",
     "sellerName": "Softies Store",
     "sellerEmail": "hello@softiesstore.com",
@@ -322,10 +648,39 @@
     "description": "A cute green dinosaur plush made from soft fabric, perfect for cuddling and storytelling fun.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image25.jpg?updatedAt=1761059953097",
     "subCategory": "Soft Toys",
-    "popularity": "unpopular"
+    "popularity": "unpopular",
+
+    "features": ["Super Soft", "Child Safe", "Washable"],
+    "materials": ["Fabric", "Cotton Filling"],
+    "dimensions": "12 x 8 x 6 inches",
+    "weight": "0.7 lbs",
+    "releaseDate": "2023-11-05",
+    "badges": ["Cute Toy", "Best for Toddlers"],
+    "safetyInfo": "Machine washable.",
+    "ageRecommendation": "1-8 years",
+
+    "manufacturingInfo": {
+      "brand": "Softies",
+      "madeIn": "Vietnam",
+      "warranty": "3 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "2-3 business days"
+    },
+
+    "reviews": [
+      { "username": "Hena", "comment": "Very cute and soft!", "rating": 4.5 },
+      { "username": "Leo", "comment": "Kids love this!", "rating": 4.3 }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Dinosaur", "Soft Toy", "Plush"]
   },
+
   {
-    "toyId": 26,
+    "toyId": 16,
     "toyName": "Science Experiment Kit",
     "sellerName": "STEM Explorers",
     "sellerEmail": "orders@stemexplorers.com",
@@ -335,10 +690,39 @@
     "description": "An educational science kit with fun chemistry experiments for kids to explore reactions and learn STEM basics.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image26.webp?updatedAt=1761059952994",
     "subCategory": "STEM Toys",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["20+ Experiments", "Instruction Booklet", "Safe Chemicals"],
+    "materials": ["Plastic", "Glass", "Paper"],
+    "dimensions": "14 x 10 x 4 inches",
+    "weight": "2 lbs",
+    "releaseDate": "2024-03-02",
+    "badges": ["STEM Approved", "Educational"],
+    "safetyInfo": "Adult supervision required.",
+    "ageRecommendation": "6-14 years",
+
+    "manufacturingInfo": {
+      "brand": "STEM Explorers",
+      "madeIn": "USA",
+      "warranty": "1 year"
+    },
+
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-6 business days"
+    },
+
+    "reviews": [
+      { "username": "Evan", "comment": "Amazing experiments!", "rating": 4.8 },
+      { "username": "Sana", "comment": "Very educational!", "rating": 4.6 }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["STEM", "Science", "Education"]
   },
+
   {
-    "toyId": 27,
+    "toyId": 17,
     "toyName": "Monopoly Classic Edition",
     "sellerName": "Game Masters",
     "sellerEmail": "contact@gamemasters.com",
@@ -348,10 +732,39 @@
     "description": "The world-famous Monopoly board game where players buy, trade, and build properties to win it all.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image27.jpg?updatedAt=1761059952964",
     "subCategory": "Board Games",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["Original Board", "Metal Tokens", "High-Quality Cards"],
+    "materials": ["Paper", "Cardboard", "Metal"],
+    "dimensions": "20 x 10 x 3 inches",
+    "weight": "2.2 lbs",
+    "releaseDate": "2023-10-02",
+    "badges": ["Family Favorite", "Top Rated"],
+    "safetyInfo": "Small pieces included.",
+    "ageRecommendation": "8+ years",
+
+    "manufacturingInfo": {
+      "brand": "Hasbro",
+      "madeIn": "China",
+      "warranty": "6 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "3-7 business days"
+    },
+
+    "reviews": [
+      { "username": "Ishaan", "comment": "Classic fun!", "rating": 5 },
+      { "username": "George", "comment": "Great family game!", "rating": 4.8 }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Board Game", "Monopoly", "Family"]
   },
+
   {
-    "toyId": 28,
+    "toyId": 18,
     "toyName": "Wooden Alphabet Blocks",
     "sellerName": "EduPlay House",
     "sellerEmail": "support@eduplayhouse.com",
@@ -361,10 +774,43 @@
     "description": "Colorful wooden alphabet blocks that help toddlers learn letters, spelling, and building skills.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image28.jpg?updatedAt=1761059953089",
     "subCategory": "Educational Toys",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["26 Blocks", "Non-toxic Wood", "Smooth Edges"],
+    "materials": ["Wood"],
+    "dimensions": "8 x 8 x 4 inches",
+    "weight": "1.2 lbs",
+    "releaseDate": "2023-06-20",
+    "badges": ["Educational", "Toddler Friendly"],
+    "safetyInfo": "Food-grade paint.",
+    "ageRecommendation": "2-6 years",
+
+    "manufacturingInfo": {
+      "brand": "EduPlay",
+      "madeIn": "Thailand",
+      "warranty": "6 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "3-5 business days"
+    },
+
+    "reviews": [
+      {
+        "username": "Joya",
+        "comment": "Very strong wooden blocks!",
+        "rating": 4.6
+      },
+      { "username": "Elena", "comment": "Perfect for toddlers!", "rating": 4.4 }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Alphabet", "Wooden", "Education"]
   },
+
   {
-    "toyId": 29,
+    "toyId": 19,
     "toyName": "Hot Wheels 10-Car Pack",
     "sellerName": "Speed Legends",
     "sellerEmail": "info@speedlegends.com",
@@ -374,10 +820,39 @@
     "description": "A pack of 10 unique Hot Wheels cars for collectors and kids who love racing and car stunts.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image29.jpeg?updatedAt=1761059952682",
     "subCategory": "Vehicles",
-    "popularity": "popular"
+    "popularity": "popular",
+
+    "features": ["10 Exclusive Cars", "Metal Body", "Collector's Pack"],
+    "materials": ["Metal", "Plastic"],
+    "dimensions": "12 x 8 x 2 inches",
+    "weight": "1.1 lbs",
+    "releaseDate": "2024-01-12",
+    "badges": ["Collector Edition", "Top Seller"],
+    "safetyInfo": "Not for under 3 years.",
+    "ageRecommendation": "4+ years",
+
+    "manufacturingInfo": {
+      "brand": "Hot Wheels",
+      "madeIn": "Malaysia",
+      "warranty": "6 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": true,
+      "estimatedDelivery": "4-7 business days"
+    },
+
+    "reviews": [
+      { "username": "Farhan", "comment": "Amazing car set!", "rating": 4.7 },
+      { "username": "Jason", "comment": "Kids love it!", "rating": 4.6 }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Cars", "Racing", "Hot Wheels"]
   },
+
   {
-    "toyId": 30,
+    "toyId": 20,
     "toyName": "Toy Doctor Set",
     "sellerName": "Little Care",
     "sellerEmail": "sales@littlecare.com",
@@ -387,6 +862,42 @@
     "description": "A fun doctor set for kids including stethoscope, thermometer, syringe, and other pretend medical tools.",
     "pictureURL": "https://ik.imagekit.io/2o23yla4n/assignment-9/image30.webp?updatedAt=1761059952996",
     "subCategory": "Pretend Play",
-    "popularity": "unpopular"
+    "popularity": "unpopular",
+
+    "features": ["15 Tools", "Realistic Sounds", "Carry Box"],
+    "materials": ["Plastic"],
+    "dimensions": "10 x 8 x 4 inches",
+    "weight": "1 lb",
+    "releaseDate": "2023-08-18",
+    "badges": ["Medical Play", "Kid Friendly"],
+    "safetyInfo": "Rounded edges for safety.",
+    "ageRecommendation": "3-10 years",
+
+    "manufacturingInfo": {
+      "brand": "LittleCare",
+      "madeIn": "China",
+      "warranty": "6 months"
+    },
+
+    "shippingInfo": {
+      "freeShipping": false,
+      "estimatedDelivery": "3-6 business days"
+    },
+
+    "reviews": [
+      {
+        "username": "Momo",
+        "comment": "Very cute medical set!",
+        "rating": 4.4
+      },
+      {
+        "username": "Julia",
+        "comment": "Kids have fun role playing!",
+        "rating": 4.2
+      }
+    ],
+
+    "stockStatus": "in-stock",
+    "tags": ["Doctor", "Pretend Play", "Medical"]
   }
 ]
